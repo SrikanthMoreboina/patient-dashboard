@@ -1,0 +1,57 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* take most of screen */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: -5%; /* move a little above mid */
+}
+
+/* Typing animation for heading */
+.typing {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #1abc9c; /* cursor effect */
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch; /* length of "Welcome to Jarurat Care" */
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #1abc9c;
+  }
+}
+
+/* Subheading */
+.subtitle {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #34495e;
+}
+
+/* Quote */
+.quote {
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+  color: #7f8c8d;
+}

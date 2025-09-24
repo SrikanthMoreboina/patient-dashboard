@@ -1,0 +1,120 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.page {
+  padding: 1rem 2rem;
+}
+
+/* Patients Grid */
+.patients-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .patients-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .patients-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Patient Card */
+.patient-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.patient-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.patient-card button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+.patient-card button:hover {
+  background: #005f87;
+}
+
+/* Search */
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Add Form */
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.add-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background: darkgreen;
+}
+
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+}
+
+
+.submit-btn {
+  background-color: #87CEEB; /* Sky Blue */
+  border-radius: 12;
+}

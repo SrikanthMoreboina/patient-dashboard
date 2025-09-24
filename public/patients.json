@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Ravi Kumar", "age": 29, "contact": "9876543210" },
+  { "id": 2, "name": "Anita Sharma", "age": 34, "contact": "9123456780" },
+  { "id": 3, "name": "Rajesh Gupta", "age": 42, "contact": "9812345670" },
+  { "id": 4, "name": "Meera Patel", "age": 27, "contact": "9098765432" },
+  { "id": 5, "name": "Arjun Reddy", "age": 38, "contact": "9001122334" },
+  { "id": 6, "name": "Pooja Nair", "age": 31, "contact": "9345678901" },
+  { "id": 7, "name": "Vikram Singh", "age": 45, "contact": "9456781230" },
+  { "id": 8, "name": "Sonal Jain", "age": 28, "contact": "9765432109" },
+  { "id": 9, "name": "Amit Verma", "age": 36, "contact": "9345098765" },
+  { "id": 10, "name": "Neha Kapoor", "age": 33, "contact": "9876501234" }
+]
+
+
